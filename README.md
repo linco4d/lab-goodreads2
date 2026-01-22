@@ -799,4 +799,4 @@ $ sh summarize_reviews.sh "Democracy in America"
 Like in the first part of this lab, these commands take a long time to run.
 The majority of the time is not spent in the LLM,
 but in finding the data that goes into the LLM.
-By the end of the course, you will be able to create systems that do this in milliseconds.
+By the end of the course, you will be able to create systems that fetch this data in milliseconds.

@@ -443,7 +443,7 @@ We still need to sanity check our results.
 > One of the most common traps that students fall into when doing data analysis projects is not sanity checking your results.
 > This trap is especially tempting in big data projects because the results take so long to compute,
 > that when you finally get a number, you're ready to just move onto the next phase of your project.
-> But then you just waste time doing meaningless work on the next fase of your project.... aaahh!!!
+> But then you just waste your time doing meaningless work on the next phase of your project.... aaahh!!!
 >
 > <img src=facepalm.jpg width=400px />
 
@@ -774,6 +774,18 @@ rm -rf "$tempdir"
 > **Exercise:**
 >
 > Modify your shell script from Part 4.a so that it does not create any intermediate files in the folder the user called it from.
+
+> **NOTE:**
+> The process of extracting excerts from a large dataset and passing them to an LLM is called *retrieval augmented generation*, or RAG.
+> RAG is one of the hottest trends in AI, and can be used to solve most of the major problems with modern LLMS like hallucinations and lack of domain-specific training data.
+>
+> <img src=so-hot.jpg width=400px />
+>
+> In the past 3 years, I've had about 10 companies/students/other professors come to me after they've spend >50 hours implementing a crappy rag system that doesn't work.
+> Then I start up my bash shell and implement an actually working rag system that solves their business problem in <10 minutes.
+> Thus is the power of the shell.
+>
+> <img src=power.jpg width=400px />
 
 ## Submission
 

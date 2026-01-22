@@ -89,6 +89,8 @@ which makes the code not work,
 which means they've wasted hours of work.
 SO ALWAYS MANUALLY INSPECT YOUR DATA BEFORE DOING ANY ANALYSIS!!!
 
+<img src=dog-burning.jpg width=300px />
+
 Recall that we saw before how to use the `zcat` and `head` commands to manually view the first few lines of a csv file.
 The same commands will work to visualize a json file,
 but the output can be a bit overwhelming.

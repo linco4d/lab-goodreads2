@@ -439,13 +439,13 @@ The file `reviews-notw.json` now contains the output of our join.
 We're not quite done.
 We still need to sanity check our results.
 
-<!--
-> **Note:**
->
+> **NOTE:**
 > One of the most common traps that students fall into when doing data analysis projects is not sanity checking your results.
-That's even more common in big data projects because the results take so long to compute,
-that when you finally get a number you're ready to just move onto the next phase of your project.
--->
+> This trap is especially tempting in big data projects because the results take so long to compute,
+> that when you finally get a number, you're ready to just move onto the next phase of your project.
+> But then you just waste time doing meaningless work on the next fase of your project.... aaahh!!!
+>
+> <img src=facepalm.jpg width=400px />
 
 A simple way to sanity check is to count the number of reviews we've found:
 ```

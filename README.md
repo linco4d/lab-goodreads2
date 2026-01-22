@@ -3,7 +3,7 @@
 Amazon recently launched a new service where [AI models summarize product reviews](https://www.aboutamazon.com/news/amazon-ai/amazon-improves-customer-reviews-with-generative-ai).
 For example, here's the AI generated review for [this package of uranium ore](https://www.amazon.com/dp/B000796XXM):
 
-<img src=amazon-review-uranium.png width=100%>
+<img src=img/amazon-review-uranium.png width=100%>
 
 In this lab, you will create your own version of this service.
 You will use AI to summarize book reviews from the website <https://www.goodreads.com/>.
@@ -89,7 +89,7 @@ which makes the code not work,
 which means they've wasted hours of work.
 SO ALWAYS MANUALLY INSPECT YOUR DATA BEFORE DOING ANY ANALYSIS!!!
 
-<img src=dog-fire.jpg width=300px />
+<img src=img/dog-fire.jpg width=300px />
 
 Recall that we saw before how to use the `zcat` and `head` commands to manually view the first few lines of a csv file.
 The same commands will work to visualize a json file,
@@ -445,7 +445,7 @@ We still need to sanity check our results.
 > that when you finally get a number, you're ready to just move onto the next phase of your project.
 > But then you just waste your time doing meaningless work on the next phase of your project.... aaahh!!!
 >
-> <img src=facepalm.jpg width=400px />
+> <img src=img/facepalm.jpg width=400px />
 
 A simple way to sanity check is to count the number of reviews we've found:
 ```
@@ -779,13 +779,13 @@ rm -rf "$tempdir"
 > The process of extracting excerts from a large dataset and passing them to an LLM is called *retrieval augmented generation*, or RAG.
 > RAG is one of the hottest trends in AI, and can be used to solve most of the major problems with modern LLMS like hallucinations and lack of domain-specific training data.
 >
-> <img src=so-hot.jpg width=400px />
+> <img src=img/so-hot.jpg width=300px />
 >
-> In the past 3 years, I've had about 10 companies/students/other professors come to me after they've spend >50 hours implementing a crappy rag system that doesn't work.
+> In the past 3 years, I've had about 10 companies/students/other professors come to me after they've spent >50 hours vibecoding a crappy rag system that doesn't work.
 > Then I start up my bash shell and implement an actually working rag system that solves their business problem in <10 minutes.
 > Thus is the power of the shell.
 >
-> <img src=power.jpg width=400px />
+> <img src=img/power.jpg width=300px />
 
 ## Submission
 
